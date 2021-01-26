@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "*Improve YouTube!☕🧩 YouTube-&Video-Tools 🎞️🧪",
+    "name": "ImprovedTube",
     "short_name": "ImprovedTube",
-    "description": "Make YouTube tidy & powerful! YouTube Player Size Theme Quality Colors ad-block Playback Speed Style Playlist Channel H.264 Auto HD",
+    "description": "ImprovedTube Modified",
     "version": "3.121",
     "version_name": "3.120-testing.2",
     "default_locale": "en",
@@ -34,7 +34,6 @@
             "content-styles.css"
         ],
         "exclude_matches": [
-            "https://www.youtube.com/improvedtube",
             "https://www.youtube.com/tv*",
             "https://www.youtube.com/audiolibrary/*",
             "http://studio.youtube.com/*"
@@ -58,7 +57,7 @@
             "popup.js"
         ],
         "matches": [
-            "https://www.youtube.com/improvedtube"
+            "https://www.youtube.com/zzxbf"
         ],
         "run_at": "document_end"
     }, {
@@ -67,7 +66,7 @@
             "page.js"
         ],
         "matches": [
-            "https://www.youtube.com/improvedtube"
+            "https://www.youtube.com/zzxbf"
         ],
         "run_at": "document_start"
     }],

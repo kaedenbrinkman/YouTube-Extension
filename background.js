@@ -81,34 +81,6 @@ function browserActionIcon() {
 
 chrome.contextMenus.removeAll();
 
-chrome.contextMenus.create({
-    id: '1111',
-    title: 'Donate',
-    contexts: ['browser_action']
-});
-
-chrome.contextMenus.create({
-    id: '1112',
-    title: 'Rate me',
-    contexts: ['browser_action']
-});
-
-chrome.contextMenus.create({
-    id: '1113',
-    title: 'GitHub',
-    contexts: ['browser_action']
-});
-
-chrome.contextMenus.onClicked.addListener(function(event) {
-    if (event.menuItemId === '1111') {
-        window.open('https://www.improvedtube.com/donate');
-    } else if (event.menuItemId === '1112') {
-        window.open('https://chrome.google.com/webstore/detail/improvedtube-for-youtube/bnomihfieiccainjcjblhegjgglakjdd');
-    } else if (event.menuItemId === '1113') {
-        window.open('https://github.com/ImprovedTube/ImprovedTube');
-    }
-});
-
 
 /*---------------------------------------------------------------
 # MESSAGE LISTENER
